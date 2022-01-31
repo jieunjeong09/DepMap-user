@@ -35,7 +35,7 @@ function report_mutation() {
   print "Protein change", $19 > MutFile
 }
 BEGIN {
-# DataDir = "/Users/piotr/Downloads/Depmap/"
+# DataDir = "/Depmap/"
   if (!samples)
     samples = "Sixteen_workout"
   MutFile = "Mutations_" genes "_" samples ".txt"
